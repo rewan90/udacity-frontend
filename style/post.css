@@ -60,7 +60,10 @@ strong{
   grid-column-gap: 10px;
   margin-bottom: 60px;
 }
+section h1{
+color:   #2B642D;
 
+}
 
 /* Blog Post Content Styles */
 .blog-post-content {
