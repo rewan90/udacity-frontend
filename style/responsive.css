@@ -1,20 +1,43 @@
+
+/* Media Queries for responsiveness */
+
+/* For screens smaller than 992px */
+@media only screen and (max-width: 992px) {
+  .blog-post-card {
+    width: 70%;
+  }
+  .card {
+    width: 100%;
+  }
+  .aside {
+    width: 20%;
+  }
+}
+
 /* For screens smaller than 768px */
-@media (max-width: 768px) {
-    aside {
-      width: 100%;
-      margin: 20px; 
-    }
+@media only screen and (max-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+
   }
   
-  /* For screens smaller than 480px */
-  @media (max-width: 480px) {
-    aside {
-      padding: 10px; 
-    }
-    h2 {
-      font-size: 18px; 
-    }
-    li {
-      margin-bottom: 5px; 
-    }
+  .card {
+    width: 100%;
+    margin: 10px;
   }
+  .aside {
+    width: 100%;
+  }
+}
+
+/* For screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+  .card img {
+    height: 200px;
+  }
+  .card button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
